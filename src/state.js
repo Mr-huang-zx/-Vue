@@ -21,8 +21,8 @@ export function initState(vm){
     }
 }
 
-function initProps(vm){}
 function initData(vm){
+    
     // console.log("初始化数据成功")
     // console.log(vm.$options.data())
     let data = vm.$options.data  //用户传递的data
